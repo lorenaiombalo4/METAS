@@ -28,12 +28,12 @@ const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();//horario atual
-    let tempoFinal = tempoObjetivo - tempoAtual;
+    let tempoFinal = tempoObjetivo - tempoAtual;//diferenca de tempo
     let segundos = Math.floor(tempoFinal / 1000);
     let minutos = Math.floor(segundos / 60);
     let horas = Math.floor(minutos / 60);
     let dias = Math.floor(horas / 24);
-
+//calculo de arredondamento das variaveis de tempo
     segundos %= 60;
     minutos %= 60;
     horas %= 24;
