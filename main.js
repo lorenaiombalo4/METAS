@@ -27,7 +27,7 @@ const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 //lista dos objetivos (simbolo [])
 
 function calculaTempo(tempoObjetivo) {
-    let tempoAtual = new Date();
+    let tempoAtual = new Date();//horario atual
     let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos = Math.floor(tempoFinal / 1000);
     let minutos = Math.floor(segundos / 60);
