@@ -22,7 +22,7 @@ const tempoObjetivo1 = new Date("2025-09-05T00:00:00");
 const tempoObjetivo2 = new Date("2025-12-05T00:00:00");
 const tempoObjetivo3 = new Date("2026-01-30T00:00:00");
 const tempoObjetivo4 = new Date("2025-12-01T00:00:00");
-
+//tempo do cronometro das metas
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
 
