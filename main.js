@@ -1,5 +1,6 @@
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
+//busca de todas as classes .botao e .aba-conteudo
 
 for (let i = 0; i < botoes.length; i++) {
     botoes[i].onclick = function () {
@@ -12,6 +13,8 @@ for (let i = 0; i < botoes.length; i++) {
         botoes[i].classList.add("ativo");
         textos[i].classList.add("ativo");
     }
+    //para o cursor parar em um dos botoes da abao código
+    //ao clicar ele remove e adiciona a classe .ativo
 }
 
 const contadores = document.querySelectorAll(".contador");
